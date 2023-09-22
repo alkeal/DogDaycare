@@ -1,4 +1,4 @@
-import Background from '/Users/a/DogDaycare/src/assets/DD7760CC-A793-44A0-BF02-2A8691F61EA5.jpeg'
+import Background from "/Users/a/DogDaycare/src/assets/dogbackground.jpeg"
 import "./styles.css"
 import Navbar from "./components/Navbar"
 import Home from "./pages/Home"

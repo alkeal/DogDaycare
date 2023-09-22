@@ -1,4 +1,4 @@
-import Logo from '../assets/shield-dog-solid.svg'
+import Logo from '/Users/a/DogDaycare/src/assets/Dog_Daycare-removebg-preview.png'
 import {Link} from "react-router-dom"
 import React, { useState } from 'react'
 import './Navbar.css'
