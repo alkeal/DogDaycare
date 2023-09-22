@@ -6,15 +6,15 @@ import './Navbar.css'
 
 export default function Navbar(){
 
-  
+  const [openLinks, setOpenLinks] = useState(false)
 
 return(
   <div className="navbar">
-    <div className="leftSide">
+    <div className="leftSide" id={openLinks ? "open" : "close"}>
       <img src={Logo}/>
       <div className="hiddenLinks">
 
-      <Link to="/">Hem</Link>
+      <Link to="/Home">Hem</Link>
 
 <Link to="/Catalog">Katalog</Link>
 
@@ -26,14 +26,13 @@ return(
 
      <div className="rightSide">
 
-        <Link to="/">Hem</Link>
+        <Link to="/Home">Hem</Link>
 
         <Link to="/Catalog">Katalog</Link>
 
         <Link to="/Info">Mer information</Link>
           <button>
 
-            
           
           </button>
         
