@@ -2,6 +2,7 @@ import Logo from '/Users/a/DogDaycare/src/assets/Dog_Daycare-removebg-preview.pn
 import {Link} from "react-router-dom"
 import React, { useState } from 'react'
 import './Navbar.css'
+import { Reorder } from '@mui/icons-material'
 
 
 export default function Navbar(){
@@ -14,9 +15,9 @@ return(
       <img src={Logo}/>
       <div className="hiddenLinks">
 
-      <Link to="/Home">Hem</Link>
+      <Link  to="/Home">Hem</Link>
 
-<Link to="/Catalog">Katalog</Link>
+<Link to="/catalog">Katalog</Link>
 
 <Link to="/Info">Mer information</Link>
 
