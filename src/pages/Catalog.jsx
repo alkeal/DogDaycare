@@ -1,30 +1,36 @@
 import React from 'react'
 import { useState, useEffect} from "react";
-const apiUrl = 'https://api.jsonbin.io/v3/b/650a7ebece39bb6dce7f5683'
 
-const [dogs, setDogs] = useState(0)
 
 
 function Catalog() {
 
-  useEffect(() => {
+  function loadCatalog(){
 
-  const fetchData = async () => {
+   fetch("https://api.jsonbin.io/v3/b/650a7ebece39bb6dce7f5683")
+     .then((response) => response.json())
+     .then((data) => {
+      setCatalog([...catalogs, data])
+     }
 
-    const result = await fetch(apiUrl)
-      result.json().then(json => {
-        setDogs(json.current.name)
-      }
+  )}
+  const [catalogs, setCatalog] = useState([]);
+  useEffect(() =>  {
+      loadCatalog();
+  }, []);
 
-      )
-  }
-
- fetchData();
-
-  },[] )
 
   return (
-    <div className="catalog">Katalog</div>
+    <div>
+   <ul>
+    {catalogs.map((record) => {
+       return <li key={record.key}>{record.lastName}</li>
+
+        } 
+      )}
+    
+   </ul>
+ </div>
     
   )
   
