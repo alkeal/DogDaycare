@@ -13,6 +13,11 @@
 
   }
 
+  .Catalog h2{
+    font-size: 30px;
+    align-items: center;
+  }
+
 .dogUser-container {
 
     
@@ -30,10 +35,11 @@
 
 .dogUser-container img{
 
-    width: 60%;
+    width: 30%;
     border-radius: 0px;
-    display: block;
+    display: center;
     transition: transform 0.6s;
+    
 
   
   
@@ -42,7 +48,7 @@
 
 .dogUser-container h5{
 
-    width: 60%;
+    width: 30%;
     border-radius: 0px;
     background: linear-gradient(rgba(0, 0, 0, 0.218),#5c5f5f62);
     font-size: 15px;

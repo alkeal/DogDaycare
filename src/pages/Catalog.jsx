@@ -33,7 +33,7 @@ const apiUrl = "https://api.jsonbin.io/v3/b/650a7ebece39bb6dce7f5683"
   <div className="Catalog">
       <header className="Header-Catalog">
 
-        <h2>Hundinfo</h2>
+        <h2>Våra hundar</h2>
       </header>
          <div className="dogUser-container">
           {userData.map((dog,index)=> (
