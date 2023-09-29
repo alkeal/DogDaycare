@@ -38,10 +38,10 @@ const apiUrl = "https://api.jsonbin.io/v3/b/650a7ebece39bb6dce7f5683"
          <div className="dogUser-container">
           {userData.map((dog,index)=> (
              <div key={index}>
+               <img src={dog.img}alt={dog.name}/>
          <h5 className="dog-data">{dog.name}</h5>
          <h5 className="dog-data">{dog.sex}</h5>
          <h5 className="dog-data">{dog.breed}</h5>
-         <img src={dog.img}alt={dog.name}/>
          <h5 className="dog-data">{dog.present}</h5>
          <h5 className="dog-data">{dog.age}</h5>
          <h5 className="dog-data">{dog.chipNumber}</h5>
@@ -54,6 +54,7 @@ const apiUrl = "https://api.jsonbin.io/v3/b/650a7ebece39bb6dce7f5683"
          )}
        
      </div>
+    
 
   </div>
 
