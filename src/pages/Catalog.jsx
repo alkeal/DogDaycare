@@ -28,13 +28,20 @@ const apiUrl = "https://api.jsonbin.io/v3/b/650a7ebece39bb6dce7f5683"
 
  };
 
+ 
+
  return (
-  
-  <div className="Catalog">
+    
+
+  <div className="catalog-box">
+
       <header className="Header-Catalog">
 
         <h2>Våra hundar</h2>
       </header>
+     
+
+      
          <div className="dogUser-container">
           {userData.map((dog,index)=> (
              <div key={index}>
@@ -44,11 +51,12 @@ const apiUrl = "https://api.jsonbin.io/v3/b/650a7ebece39bb6dce7f5683"
          <h5 className="dog-data">{dog.breed}</h5>
          <h5 className="dog-data">{dog.present}</h5>
          <h5 className="dog-data">{dog.age}</h5>
+         <div className="dog-owner">
          <h5 className="dog-data">{dog.chipNumber}</h5>
          <h5 className="dog-data">{dog.owner.name}</h5>
          <h5 className="dog-data">{dog.owner.lastName}</h5>
             <h5 className="dog-data">{dog.owner.phoneNumber}</h5>
-
+             </div>
          </div>
          )
          )}
