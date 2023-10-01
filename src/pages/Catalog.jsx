@@ -31,31 +31,32 @@ const apiUrl = "https://api.jsonbin.io/v3/b/650a7ebece39bb6dce7f5683"
  
 
  return (
-    
+
 
   <div className="catalog-box">
 
-      <header className="Header-Catalog">
+      
+<header className="Header-Catalog">
 
-        <h2>Våra hundar</h2>
-      </header>
-     
+<h2>Våra hundar</h2>
+</header>
 
       
          <div className="dogUser-container">
           {userData.map((dog,index)=> (
              <div key={index}>
                <img src={dog.img}alt={dog.name}/>
-         <h5 className="dog-data">{dog.name}</h5>
-         <h5 className="dog-data">{dog.sex}</h5>
-         <h5 className="dog-data">{dog.breed}</h5>
-         <h5 className="dog-data">{dog.present}</h5>
-         <h5 className="dog-data">{dog.age}</h5>
-         <div className="dog-owner">
-         <h5 className="dog-data">{dog.chipNumber}</h5>
-         <h5 className="dog-data">{dog.owner.name}</h5>
-         <h5 className="dog-data">{dog.owner.lastName}</h5>
-            <h5 className="dog-data">{dog.owner.phoneNumber}</h5>
+         <h5 className="dog-data">Namn: {dog.name}</h5>
+         <h5 className="dog-data">Kön: {dog.sex}</h5>
+         <h5 className="dog-data">Ras: {dog.breed}</h5>
+         <h5 className="dog-data">Ålder: {dog.age}</h5>
+         Mer information nedan...
+         <div className="dog-owner"> 
+         <h5 className="dog-data">Inlämnad : {dog.present}</h5>
+         <h5 className="dog-data">Registrering : {dog.chipNumber}</h5>
+         <h5 className="dog-data">Ägarens förnamn : {dog.owner.name}</h5>
+         <h5 className="dog-data">Ägarens efternamn : {dog.owner.lastName}</h5>
+            <h5 className="dog-data">Kontakt : {dog.owner.phoneNumber}</h5>
              </div>
          </div>
          )
