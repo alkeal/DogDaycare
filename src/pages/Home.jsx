@@ -12,7 +12,11 @@ function Home() {
     <Link to="/catalog">
     <button> Kolla in våra hundar</button>
     </Link>
+    
     </div>
+    <Link to="/info">
+    <button className="btn-info"> Eller läs mer om oss här</button>
+    </Link>
     </div>
     
   )

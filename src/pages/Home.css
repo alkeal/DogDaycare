@@ -66,3 +66,30 @@ font-size: 25px;
     transition: 0.3s ease-in;
    
 }
+
+
+.btn-info {
+
+
+    width: auto;
+    margin-left: 50px;
+    color: rgb(7, 7, 7);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: rgba(47, 79, 143, 0.018);
+    height: 80px;
+    width: 300px;
+    color: rgb(248, 246, 246);
+   text-decoration: none;
+   font-size: 20px;
+   
+   }
+
+   .btn-info:hover{
+    background-color: black;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+   
+}
