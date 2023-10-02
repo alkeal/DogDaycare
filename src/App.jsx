@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 import Home from "./pages/Home"
 import Catalog from "./pages/Catalog"
+import Info from "./pages/Info"
 import {BrowserRouter as Router, Route, Routes}from "react-router-dom"
 
 
@@ -23,6 +24,7 @@ return (
 <Routes>
 <Route path="/home" exact element={<Home/>}/>
 <Route path="/catalog" exact element={<Catalog/>}/>
+<Route path="/info" exact element={<Info/>}/>
 
 
 </Routes>

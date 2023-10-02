@@ -1,0 +1,21 @@
+.Info{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    font-weight: lighter;
+    font-size: medium;
+    
+  }
+
+
+
+
+
+.info-headertext {
+
+    font-size: large;
+    font-weight: bold;
+
+
+}
