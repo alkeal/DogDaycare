@@ -36,7 +36,7 @@ const apiUrl = "https://api.jsonbin.io/v3/b/650a7ebece39bb6dce7f5683"
   <div className="catalog-box">
 
       
-<header className="Header-Catalog">
+<header className="header-catalog">
 
 <h2>Våra hundar</h2>
 </header>
