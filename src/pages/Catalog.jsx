@@ -47,11 +47,11 @@ const apiUrl = "https://api.jsonbin.io/v3/b/650a7ebece39bb6dce7f5683"
              <div key={index}>
                <img src={dog.img}alt={dog.name}/>
          <h5 className="dog-data">Namn: {dog.name}</h5>
-         <h5 className="dog-data">Kön: {dog.sex}</h5>
          <h5 className="dog-data">Ras: {dog.breed}</h5>
-         <h5 className="dog-data">Ålder: {dog.age}</h5>
-         Mer information nedan...
+        <div className="more-info">Mer information nedan...</div>
          <div className="dog-owner"> 
+         <h5 className="dog-data">Kön: {dog.sex}</h5>
+         <h5 className="dog-data">Ålder: {dog.age}</h5>
          <h5 className="dog-data">Inlämnad : {dog.present}</h5>
          <h5 className="dog-data">Registrering : {dog.chipNumber}</h5>
          <h5 className="dog-data">Ägarens förnamn : {dog.owner.name}</h5>
