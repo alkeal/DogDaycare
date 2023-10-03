@@ -1,7 +1,7 @@
 import React from 'react'
 import "../pages/Info.css"
 import {Link} from "react-router-dom";
-import BackgroundImage from  "../assets/dogbackground.jpeg"
+import BackgroundImage from  "../assets/info-hund.png"
 
 
 function Info() {

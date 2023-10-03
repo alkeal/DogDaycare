@@ -22,31 +22,21 @@
     justify-content: center;
  align-items: center;
  font-size: 40px;
- height: 70px;
- font-weight: 60;
- color: rgba(255, 245, 245, 0.881);
+ height: -10px;
+ font-weight: 50;
+ color: rgba(15, 14, 14, 0.881);
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- border: solid black 0px;
- border-radius: 5px;
+
  cursor: pointer;
  justify-content: center;
- background-color: rgba(47, 79, 143, 0.89);
- margin-left: 40px;
- margin-right: 40px;
- margin-bottom: 160px;
+ margin-top: 400px;
+ margin-left: 100px;
+ 
 }
 
 .info-small-text {
-
-    color: wheat;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: lighter;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: solid rgba(13, 12, 12, 0.205) 2px;
-    border-radius: 10px;
-    cursor: pointer;
-    justify-content: center;
-    background-color: rgba(47, 79, 143, 0.725);
+  margin-bottom: 400px;
+  margin-right: 650px;
+  margin-left: 50px;
 
 }
