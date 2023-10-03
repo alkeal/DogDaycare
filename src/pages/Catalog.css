@@ -12,14 +12,12 @@
     display: grid;
     grid-gap: 30px;
     margin-top: 50px;
-   
 
   }
 
 
   .dog-data {
     display: grid;
-    
 
 
   }
@@ -30,7 +28,6 @@
 
  display: grid;
  grid-template-columns: 1fr 1fr 1fr;
- 
 }
 
 .dog-owner {
@@ -38,7 +35,8 @@
   width: 100%;
   height: 10;
   background: linear-gradient(rgba(251, 247, 247, 0.218),#fffefd);
-  border-radius: 0px;
+  border-radius: 1px;
+  border: 2px solid rgba(0, 0, 0, 0.378);
 
 }
 
@@ -57,14 +55,12 @@
 .dogUser-container h5{
 
     width: 30%;
-    
  
 }
 
 .dog-owner {
 
   opacity: 0;
-  
 }
 
 .dog-owner:hover {

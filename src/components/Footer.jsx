@@ -8,7 +8,7 @@ function Footer() {
   return (
     <div className="footer">
         <div className="media"></div>
-        <InstagramIcon/> <FacebookIcon/> <TwitterIcon/>
+        <InstagramIcon/> 
         <p>&copy; 2023 DogDayCareStockholm.se</p>
     </div>
   )

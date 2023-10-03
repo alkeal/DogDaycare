@@ -91,7 +91,7 @@ font-size: 25px;
    }
 
    .btn-info:hover{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.542);
     cursor: pointer;
     transition: 0.3s ease-in;
    
