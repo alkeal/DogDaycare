@@ -47,7 +47,7 @@
 
     width: 60%;
     border-radius: 5px;
-    border: 2px solid rgba(0, 0, 0, 0.897);
+    border: 1.5px solid rgba(0, 0, 0, 0.897);
     border-radius: 15px;
   
   
@@ -59,7 +59,7 @@
 .dogUser-container h5{
 
     width: 60%;
-    border: 1px solid rgba(0, 0, 0, 0.099);
+    border: 0px solid rgba(0, 0, 0, 0.099);
     border-radius: 5px;
   
   
