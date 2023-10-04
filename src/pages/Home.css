@@ -37,6 +37,22 @@ font-family: Arial, Helvetica, sans-serif;
 
 }
 
+.headerContainer h1 span {
+
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+    font-size: 60px;
+    height: 70px;
+    font-weight: 60;
+    color: rgba(47, 79, 143, 0.864);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+   
+
+
+}
+
 .headerContainer p {
     padding: 0;
     font-size: 40px;
@@ -46,6 +62,11 @@ font-family: Arial, Helvetica, sans-serif;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.headerContainer p span {
+    color: rgba(47, 79, 143, 0.864);
+    font-size: 70px;
+}
+
 .headerContainer button {
 
  color: black;
@@ -53,7 +74,7 @@ font-family: Arial, Helvetica, sans-serif;
  border-radius: 5px;
  cursor: pointer;
  justify-content: center;
- background-color: rgba(47, 79, 143, 0.345);
+ background-color: rgba(47, 79, 143, 0.864);
  height: 80px;
  width: 300px;
  color: rgb(239, 222, 222);

@@ -1,17 +1,19 @@
 .footer {
     width: 100%;
     height: 200px;
-    background-color: rgba(47, 79, 143, 0.345);
+    background-color:rgba(47, 79, 143, 0.864) ;
    display:flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding-top: 10px;
+    border-top: rgba(0, 0, 0, 0.098) solid 1px;
+
 }
 
 .media svg {
  
-    color: rgb(28, 24, 24);
+    color: rgb(255, 255, 255);
     margin: 50px;
     font-size: 100px;
     cursor: pointer;
@@ -21,5 +23,5 @@
 
 .footer p {
 
-    color: rgb(19, 19, 19);
+    color: rgb(252, 250, 250);
 }

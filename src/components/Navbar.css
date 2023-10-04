@@ -2,11 +2,12 @@
 
     width: 100%;
     height: 100px;
-    background-color: rgba(47, 79, 143, 0.345);
+    background-color: rgba(47, 79, 143, 0.864);
     display: flex;
     flex-direction: row;
     font-family: 'Poppins', sans-serif;
     font-size: large;
+    border-bottom: rgba(0, 0, 0, 0.098) solid 1px;
     
 
 }
