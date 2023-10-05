@@ -2,7 +2,7 @@ import React from 'react'
 import { useState, useEffect} from "react";
 import "../pages/Catalog.css"
 
-const apiUrl = "https://api.jsonbin.io/v3/b/650a7ebece39bb6dce7f5683"
+const apiUrl = "https://api.jsonbin.io/v3/b/651e8cc812a5d37659878397"
 
  function Catalog () {
 
