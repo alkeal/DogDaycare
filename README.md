@@ -1,4 +1,4 @@
-https://alkeal.github.io/DogDaycare/home
+https://alkeal.github.io/DogDaycare/Catalog
 
 # React + Vite
 
