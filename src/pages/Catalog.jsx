@@ -45,7 +45,9 @@ const apiUrl = "https://api.jsonbin.io/v3/b/651e8cc812a5d37659878397"
          <div className="dogUser-container">
           {userData.map((dog,index)=> (
              <div key={index}>
+              <div className="dog-img">
                <img src={dog.img}alt={dog.name}/>
+               </div>
          <h5 className="dog-data">Namn: {dog.name}</h5>
          <h5 className="dog-data">Ras: {dog.breed}</h5>
         <div className="more-info">Mer information nedan...</div>
