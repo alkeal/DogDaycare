@@ -23,6 +23,8 @@ return (
 
 <Routes>
 <Route path="/home" exact element={<Home/>}/>
+<Route path="/" exact element={<Home/>}/>
+
 <Route path="/catalog" exact element={<Catalog/>}/>
 <Route path="/info" exact element={<Info/>}/>
 
